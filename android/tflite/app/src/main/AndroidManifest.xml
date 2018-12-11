@@ -23,11 +23,10 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
-    <uses-sdk android:minSdkVersion="21" />
-
     <application android:allowBackup="true"
         android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher_mailab"
+        android:roundIcon="@mipmap/ic_launcher_mailab_round"
         android:theme="@style/MaterialTheme">
 
         <activity android:name="com.example.android.tflitecamerademo.CameraActivity"
